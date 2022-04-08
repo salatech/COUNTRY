@@ -1,0 +1,139 @@
+/* Created by Mitali */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+      background-repeat:repeat;
+      background-size: cover;
+      color: black;
+    background-image:url("https://www.designbolts.com/wp-content/uploads/2012/12/Tiny-Grid-Seamless-Patterns-For-Website-Backgrounds.jpg");
+}
+  .box{
+     width: 80vw;
+    max-width: 37.5em;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    top: 30px;
+  }
+  .container {
+    position: relative;
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    border-radius: 0.62em;
+    padding: 3em 2.5em;
+    -webkit-box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+            box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+  }
+  a{
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+   padding: 1em 0;
+   text-align: center;
+    -webkit-box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+            box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .search-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 9fr 1.25em 4fr;
+    grid-template-columns: 9fr 4fr;
+    gap: 1.25em;
+    width: 100%;
+  }
+  .search-wrapper button {
+    font-size: 1em;
+    background-color: aliceblue;
+    color: black;
+    padding: 0.3em 0;
+    border: 1px solid black;
+
+  }
+  .search-wrapper input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    height: 40px;
+    outline: none;
+    color:black;
+    background-color: transparent;
+    border:1px solid black;
+  }
+  #result {
+    margin-top: 1.25em;
+  }
+  .container .flag-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+  }
+  .container h2 {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .container h4 {
+    display: inline;
+    font-weight: 600;
+  }
+ 
+  .container h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #ff465a;
+  }
+  @media screen and (max-width: 600px) {
+    .box{
+      width: 95vw;
+    }
+    .container{
+      padding: 2em 1em;
+    }
+    .search-wrapper {
+      -ms-grid-columns:1fr;
+      grid-template-columns:1fr;
+      padding: 0.5em 0 0 0;
+    }
+    .search-wrapper button,
+    .search-wrapper input{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .container .flag-img {
+      width: 35%;
+      margin: 1.2em auto 0.8em auto;
+    }
+    #result {
+      margin-top: 0.8em;
+    }
+    .container h2 {
+      margin-bottom: 0.8em;
+    }
+    .data-wrapper {
+    margin-bottom: 0.8em;
+  }
+}
