@@ -105,6 +105,31 @@
     font-weight: 600;
     color: #ff465a;
   }
+  .icons{
+    width: 200px;
+    padding-top: 30px;
+    display: flex;
+    
+}
+a{
+  
+    width: 30px;
+    height: 30px;
+    margin: auto;margin-left: 0;
+    background-color: transparent;
+}
+  svg{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: auto;margin-left: 0;
+    fill: rgb(65, 63, 63);
+    
+ 
+}
+svg:hover{
+    fill: blue;
+}
   @media screen and (max-width: 600px) {
     .box{
       width: 95vw;
